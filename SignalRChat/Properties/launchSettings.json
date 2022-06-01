@@ -1,0 +1,32 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:51623",
+      "sslPort": 44377
+    }
+  },
+  "profiles": {
+    "SignalRChat": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "applicationUrl": "https://localhost:7235;http://localhost:5235",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "AZURE_USERNAME": "cliron1@gmail.com",
+        "VaultUri": "https://sela1027vault-liron.vault.azure.net/"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "AZURE_USERNAME": "cliron1@gmail.com",
+        "VaultUri": "https://sela1027vault-liron.vault.azure.net/"
+      }
+    }
+  }
+}
